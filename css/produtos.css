@@ -1,0 +1,146 @@
+#catalogo {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#catalogo > h1 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #5f5f79;
+}
+
+.produtos {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center
+}
+
+.produto {
+  width: 270px;
+  height: 370px;
+  margin-left: 10px;
+  background: #fff;
+  border: 2px solid rgba(121, 108, 195, 0.2);
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.produto:hover {
+  border: 2px solid rgba(121, 108, 195);
+  transform: translateY(-20px);
+}
+
+.produto .imagemProduto {
+  height: 170px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(121, 108, 195, 0.2);
+  z-index: -5;
+}
+
+.produto .imagemProduto img {
+  display: block;
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+.detalhes {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 32px;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+}
+
+.detalhes h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  color: #5d5d6b;
+}
+
+.detalhes .preco {
+  font-size: 20px;
+  color: #6e6cc3;
+  margin: auto;
+}
+
+.detalhes button {
+  border: 2px solid rgb(121, 108, 195);
+  background: transparent;
+  color: #6e6cc3;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 1s;
+  margin: auto;
+}
+
+.detalhes button:hover {
+  background: #6e6cc3;
+  color: white;
+  border: 2px solid rgb(121, 108, 195);
+}
+
+.coracao {
+  position: absolute;
+  top: -180px;
+  left: 190px;
+  color: #5d5d6b;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.inv {
+  opacity: 0;
+}
+
+.i7 {
+  width: 180px;
+  margin-left: 40px;
+}
+
+.detalhes .i7 {
+  margin-left: 20px;
+}
+
+.ram {
+  width: 200px;
+  margin-left: 30px;
+}
+
+#vid {
+  width: 200px;
+  margin-left: 35px;
+}
+
+#kumara {
+  transform: translateY(-40px);
+}
+
+.checked {
+  color: #6e6cc3;
+  animation: checado 0.5s ease-out;
+}
+
+@keyframes checado {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

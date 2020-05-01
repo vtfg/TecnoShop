@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RX 5500 XT | TecnoShop</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1f447abecf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../animacao.css">
+    <link rel="icon" type="image/jpg" href="../../img/itens/logo.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <img src="../../img/itens/logo.svg" alt="logo" />
+        <h4 class="logo">TecnoShop</h4>
+      </div>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="link" href="../../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#produtos">Produtos</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#benef">Beneficios</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="produto">
+      <div class="imagens">
+        <div class="imagem-principal">
+          <img id="container-imagem" src="1.webp" alt="foto1" />
+        </div>
+        <div class="slider">
+          <img onclick="selecionar_imagem(this)" src="1.webp" />
+          <img onclick="selecionar_imagem(this)" src="2.webp" />
+          <img onclick="selecionar_imagem(this)" src="3.webp" />
+          <img onclick="selecionar_imagem(this)" src="4.webp" />
+          <img onclick="selecionar_imagem(this)" src="5.webp" />
+          <img onclick="selecionar_imagem(this)" src="6.webp" />
+        </div>
+      </div>
+      <div>
+        <div class="detalhes">
+          <h1>
+            Placa de Vídeo Gigabyte Radeon RX 5500 XT OC
+            <p>
+              4GB GDDR6 - 128Bit
+            </p>
+          </h1>
+          <div class="codigo">
+            <h3>Código do produto: <small id="cinza">GV-R55XTOC-4GD</small></h3>
+          </div>
+          <div class="nota">
+            <span onclick="checar1()" id="e1" class="fa fa-star fa-lg"></span>
+            <span onclick="checar2()" id="e2" class="fa fa-star fa-lg"></span>
+            <span onclick="checar3()" id="e3" class="fa fa-star fa-lg"></span>
+            <span onclick="checar4()" id="e4" class="fa fa-star fa-lg"></span>
+            <span onclick="checar5()" id="e5" class="fa fa-star fa-lg"></span>
+          </div>
+          <div class="preco">
+            <h1>
+              R$ 1.246,94
+              <sub>
+                <s id="cinza"><small>R$ 1.349,99</small></s></sub
+              >
+            </h1>
+          </div>
+          <div class="mais-detalhes">
+            <h3>
+              Disponibilidade:
+              <i
+                class="far fa-check-circle fa-lg"
+                style="color: rgb(121, 108, 195);"
+              ></i>
+            </h3>
+            <h3>
+              Distribuido por:
+              <a href="https://www.gigabyte.com/br" target="blank">Gigabyte</a>
+            </h3>
+            <h3>
+              Parcelas:
+              <select name="cartão" id="parcelas">
+                <option value="1x">A vista - R$ 1.246,94</option>
+                <option value="2x">2x R$ 592,30 c/ desc</option>
+                <option value="3x">3x R$ 394,86 c/ descc</option>
+                <option value="4x">4x R$ 311,74 sem juros</option>
+                <option value="5x">5x R$ 249,39 sem juros</option>
+                <option value="6x">6x R$ 207,82 sem juros</option>
+                <option value="7x">7x R$ 178,13 sem juros</option>
+                <option value="8x">8x R$ 155,87 sem juros</option>
+                <option value="9x">9x R$ 138,55 sem juros</option>
+                <option value="10x">10x R$ 124,69 sem juros</option>
+              </select>
+            </h3>
+            <h3>Quantidade: <input type="number" placeholder="0" /></h3>
+            <button>Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="detalhes">
+      <div class="desc">
+        <h2>Especificações técnicas:</h2>
+        <br />
+
+        <p><b>Características:</b><br /></p>
+
+        <p>
+          - Marca: Gigabyte <br />
+          - Modelo: GV-R55XTGAMING OC-4GD
+        </p>
+
+        <p>
+          <br />
+          <b>Especificações:</b>
+        </p>
+        <div class="specs">
+          <b>Chipset:</b> <br />
+          - Radeon RX 5500 XT <br /><br>
+          <b>GPU:</b>
+          <p>
+            - Boost Clock: até 1845 MHz <br />
+            - Game Clock*: 1737 MHz (referência é 1717 MHz) <br />
+            - Processadores de fluxo: 1408 <br />
+            - Processo tecnológico: 7 nm
+          </p><br>
+          <b>Memória:</b>
+          <p>
+            - Clock: 14000 MHz <br />
+            - Capacidade: 4 GB <br />
+            - Tipo: GDDR6 <br />
+            - Barramento: 128 bits <br />
+            - Largura de banda: 224 GB/s
+          </p> <br>
+          <b>Interface:</b>
+          <p>
+            - PCI-E 4.0 x16
+          </p> <br>
+          <b>Exibição:</b>
+          <p>
+            - Resolução: 7680 x 4320 a 60Hz (máxima digital) <br />
+            - Visualização múltipla: Até 4
+          </p> <br>
+          <b>Físico:</b>
+          <p>
+            - Dimensões: 281 x 115 x 40 mm <br />
+            - PCB Form: ATX
+          </p> <br>
+          <b>Recursos:</b>
+          <p>
+            - DirectX 12 <br />
+            - OpenGL 4.6
+          </p> <br>
+          <b>Energia:</b>
+          <p>
+            - Exigência de poder: 450W <br />
+            - Conectores de Força: 1x 8-pin
+          </p> <br>
+          <b>Conexões:</b>
+          <p>
+            - 3x DisplayPort 1.4 <br />
+            - 1x HDMI 2.0b
+          </p> <br>
+          <b>Conteúdo da Embalagem:</b>
+          <p>
+            - Placa de Vídeo Gigabyte <br />
+            - Guia rápido
+          </p> <br>
+          <b>Garantia:</b>
+          <p>
+            - 1 ano de garantia <br />
+            <small>
+              (9 meses de garantia contratual junto ao fabricante + 3 meses
+              referentes à garantia legal, nos termos do artigo 26, II, do
+              Código de Defesa do Consumidor)
+            </small>
+          </p> <br>
+
+          <b>Peso:</b>
+          <p>
+            - 1305 gramas (bruto com embalagem)
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="coluna-esquerda">
+        <!-- Deixar a logo um pouco pra cima foi proposital :) -->
+        <img class="logo-footer" src="../../img/itens/logo.svg" alt="logo" />
+        <div class="redes-sociais">
+          <a href="https://facebook.com" target="blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a href="https://twitter.com" target="blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+          <a href="https://instagram.com" target="blank">
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>
+        </div>
+        <p>&copy; TecnoShop 2020 | Alguns direitos reservados</p>
+      </div>
+      <div class="coluna-direita">
+        <div id="contato" class="contato">
+          <h1>Fale conosco:</h1>
+          <div class="borda"></div>
+          <form action="" class="formulario">
+            <input type="text" class="email" placeholder="Digite seu e-mail" />
+            <input type="button" value="Enviar" class="botaoContato" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>

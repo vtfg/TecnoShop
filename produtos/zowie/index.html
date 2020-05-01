@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zowie EC2-A | TecnoShop</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1f447abecf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../animacao.css">
+    <link rel="icon" type="image/jpg" href="../../img/itens/logo.svg" />
+  </head>
+
+  <body>
+    <header>
+      <div class="div-logo">
+        <img src="../../img/itens/logo.svg" alt="logo" />
+        <h4 class="logo">TecnoShop</h4>
+      </div>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="link" href="../../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#produtos">Produtos</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#benef">Beneficios</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="produto">
+      <div class="imagens">
+        <div class="imagem-principal">
+          <img id="container-imagem" src="1.png" alt="foto1" />
+        </div>
+        <div class="slider">
+          <img onclick="selecionar_imagem(this)" src="1.png" />
+          <img onclick="selecionar_imagem(this)" src="2.png" />
+          <img onclick="selecionar_imagem(this)" src="3.png" />
+          <img onclick="selecionar_imagem(this)" src="4.png" />
+        </div>
+      </div>
+      <div>
+        <div class="detalhes">
+          <h1>
+            Mouse Gamer Zowie EC2-A
+            <p>
+              3200DPI USB Preto
+            </p>
+          </h1>
+          <div class="codigo">
+            <h3>Código do produto: <small id="cinza">GV-R55XTOC-4GD</small></h3>
+          </div>
+          <div class="nota">
+            <span onclick="checar1()" id="e1" class="fa fa-star fa-lg"></span>
+            <span onclick="checar2()" id="e2" class="fa fa-star fa-lg"></span>
+            <span onclick="checar3()" id="e3" class="fa fa-star fa-lg"></span>
+            <span onclick="checar4()" id="e4" class="fa fa-star fa-lg"></span>
+            <span onclick="checar5()" id="e5" class="fa fa-star fa-lg"></span>
+          </div>
+          <div class="preco">
+            <h1>
+              R$ 406,90
+            </h1>
+          </div>
+          <div class="mais-detalhes">
+            <h3>
+              Disponibilidade:
+              <i
+                class="far fa-check-circle fa-lg"
+                style="color: rgb(121, 108, 195);"
+              ></i>
+            </h3>
+            <h3>
+              Distribuido por:
+              <a href="https://zowie.benq.com/pt-br/" target="blank">Zowie</a>
+            </h3>
+            <h3>
+              Parcelas:
+              <select name="cartão" id="parcelas">
+                <option value="1x">A vista - R$ 406,90</option>
+                <option value="2x">2x R$ 214,75 c/ desc</option>
+                <option value="3x">3x R$ 143,17 c/ desc</option>
+                <option value="4x">4x R$ 113,03 sem juros</option>
+                <option value="5x">5x R$ 90,42 sem juros</option>
+                <option value="6x">6x R$ 75,35 sem juros</option>
+                <option value="7x">7x R$ 64,59 sem juros</option>
+                <option value="8x">8x R$ 56,51 sem juros</option>
+                <option value="9x">9x R$ 50,23 sem juros</option>
+                <option value="10x">10x R$ 45,21 sem juros</option>
+              </select>
+            </h3>
+            <h3>Quantidade: <input type="number" placeholder="0" /></h3>
+            <button>Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="detalhes">
+      <div class="desc">
+        <h2>Especificações técnicas:</h2>
+        <br />
+
+        <p><b>Características:</b><br /></p>
+
+        <p>
+          - Marca: Zowie <br />
+          - Modelo: EC2-A
+        </p>
+
+        <p>
+          <br />
+          <b>Especificações:</b>
+        </p>
+        <div class="specs">
+          <p>
+            - Interface: USB <br />
+            - Comprimento do cabo: 2m <br />
+            - 5 botões <br />
+            - Tamanho: Médio <br />
+            - Design ergonômico para destros <br />
+            - Plug & Play (Não precisa de Drivers) <br />
+            - Ajustes de DPI 400/ 800/ 1600/ 3200 <br />
+            - Ajuste do tempo de respota do Mouse: 125 / 500 / 1000 Hz <br />
+            - Distância perfeita do Mouse Pad = 1.5 ~ 1.8mm <br />
+            - Sistema Operacional: Windows 2000/XP/Vista/7/8 Mac OS x v10.2
+          </p>
+          <b>Conteúdo da Embalagem:</b>
+          <p>
+            - 01 Mouse Zowie <br />
+          </p>
+          <b>Peso:</b>
+          <p>
+            - 310 gramas (bruto com embalagem)
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="coluna-esquerda">
+        <!-- Deixar a logo um pouco pra cima foi proposital :) -->
+        <img class="logo-footer" src="../../img/itens/logo.svg" alt="logo" />
+        <div class="redes-sociais">
+          <a href="https://facebook.com" target="blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a href="https://twitter.com" target="blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+          <a href="https://instagram.com" target="blank">
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>
+        </div>
+        <p>&copy; TecnoShop 2020 | Alguns direitos reservados</p>
+      </div>
+      <div class="coluna-direita">
+        <div id="contato" class="contato">
+          <h1>Fale conosco:</h1>
+          <div class="borda"></div>
+          <form action="" class="formulario">
+            <input type="text" class="email" placeholder="Digite seu e-mail" />
+            <input type="button" value="Enviar" class="botaoContato" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>

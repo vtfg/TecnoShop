@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JQuerry -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome (icones) -->
+    <script
+      src="https://kit.fontawesome.com/1f447abecf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/categorias.css" />
+    <link rel="stylesheet" href="css/produtos.css" />
+    <link rel="stylesheet" href="./css/loader.css" />
+    <link rel="icon" type="image/jpg" href="./img/itens/logo.svg" />
+    <title>Página Inicial | TecnoShop</title>
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loader-ball"></div>
+    </div>
+    <header>
+      <div class="div-logo">
+        <img src="./img/itens/logo.svg" alt="logo" />
+        <h4 class="logo">TecnoShop</h4>
+      </div>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="link" href="#inicio">Inicio</a>
+          </li>
+          <li>
+            <a class="link" href="#produtos">Produtos</a>
+          </li>
+          <li>
+            <a class="link" href="#benef">Beneficios</a>
+          </li>
+          <li>
+            <a class="link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="inicio">
+        <div class="introducao">
+          <div class="intro-text">
+            <h1>Radeon RX 5500</h1>
+            <h3>XT Gaming</h3>
+            <p>
+              A Radeon RX 5500 XT totalmente nova, com tecnologia RDNA, oferece
+              desempenho excepcional e jogos de alta fidelidade.
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">4GB</button>
+            <button class="cta-select">128 bits</button>
+            <a href="#vid"> <button class="cta-add">Visualizar</button></a>
+          </div>
+        </div>
+        <div class="cover">
+          <img
+            id="imagem"
+            src="img/produtos/gigabyte-rx-5500-xt-gaming-oc-4gb.png"
+            alt="rx"
+          />
+        </div>
+      </section>
+
+      <div class="rx-select">
+        <button onclick="setaEsq()" class="botaoMudar">
+          <img id="setaEsq pointer" src="./img/itens/arrow-left.svg" alt="" />
+        </button>
+        <button onclick="setaDir()" class="botaoMudar">
+          <img id="setaDir pointer" src="./img/itens/arrow-right.svg" alt="" />
+        </button>
+      </div>
+      <img class="big-circle" src="./img/itens/big-eclipse.svg" alt="" />
+      <img class="medium-circle" src="./img/itens/mid-eclipse.svg" alt="" />
+      <img class="small-circle" src="./img/itens/small-eclipse.svg" alt="" />
+      <section id="produtos">
+        <h1 id="catg">Categoria de produtos:</h1>
+        <div class="container">
+          <div class="card1">
+            <div class="imgBx">
+              <img src="./img/produtos/mouse-deathadder.png" alt="mouse" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossos</h2>
+              <h1>Mouses</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+          <div class="card2">
+            <div class="imgBx">
+              <img src="./img/produtos/i9.png" alt="mouse" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossos</h2>
+              <h1>Processadores</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+          <div class="card3">
+            <div class="imgBx">
+              <img src="./img/produtos/monitor.png" alt="mouse" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossos</h2>
+              <h1>Monitores</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="card4">
+            <div class="imgBx">
+              <img src="./img/produtos/memoria-ram.png" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossas</h2>
+              <h1>RAM</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+          <div class="card5">
+            <div class="imgBx">
+              <img src="./img/produtos/teclado.png" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossos</h2>
+              <h1>Teclados</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+          <div class="card6">
+            <div class="imgBx">
+              <img src="./img/produtos/computadores.png" />
+            </div>
+            <div class="contentBx">
+              <h2>Veja nossos</h2>
+              <h1>Computadores</h1>
+              <a href="#catalogo">
+                <button>Veja</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benef">
+        <h1>Benefícios da nossa loja:</h1>
+        <br /><br />
+        <div class="benef-container">
+          <i class="fas fa-shipping-fast fa-3x"></i>
+          <h2>Frete Grátis</h2>
+          <p>Entregamos com frete totalmente grátis para todo o Brasil</p>
+        </div>
+        <div class="benef-container">
+          <i class="far fa-credit-card fa-3x"></i>
+          <h2>Cartões</h2>
+          <p>Aceitamos todo tipo de cartão de crédito com até 12x sem juros</p>
+        </div>
+        <div class="benef-container">
+          <i class="fas fa-money-bill-wave fa-3x"></i>
+          <h2>Boletos</h2>
+          <p>10% de desconto para pagamentos com boletos</p>
+        </div>
+      </section>
+      <div id="catalogo">
+        <h1>Veja nossos produtos:</h1>
+        <div class="produtos">
+          <div class="produto">
+            <div class="imagemProduto">
+              <img src="produtos/zowie/1.png" alt="foto" />
+            </div>
+            <div class="detalhes">
+              <h1>Zowie EC2-A</h1>
+              <div class="preco">
+                <h2>R$ 406,90</h2>
+              </div>
+              <a href="./produtos/zowie/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(0)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto i7">
+              <img src="produtos/i7/1.png" alt="foto" />
+            </div>
+            <div class="detalhes i7">
+              <h1>i7 6700K</h1>
+              <div class="preco">
+                <h2>R$ 1.289,90</h2>
+              </div>
+              <a href="./produtos/i7/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(1)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto">
+              <img src="produtos//monitor/1.webp" alt="foto" />
+            </div>
+            <div class="detalhes i7">
+              <h1>Acer KG271</h1>
+              <div class="preco">
+                <h2>R$ 1.069,90</h2>
+              </div>
+              <a href="./produtos/monitor/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(2)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto ram">
+              <img src="produtos/ram/1.png" alt="foto" />
+            </div>
+            <div class="detalhes ram">
+              <h1>Vengeance</h1>
+              <div class="preco">
+                <h2>R$ 329,90</h2>
+              </div>
+              <a href="./produtos/ram/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(3)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="produtos produtos2">
+          <div class="produto">
+            <div class="imagemProduto" id="vid">
+              <img src="produtos/rx/1.jpg" alt="foto" />
+            </div>
+            <div class="detalhes" id="vid">
+              <h1>RX 5500 XT</h1>
+              <div class="preco">
+                <h2>R$ 1.246,94</h2>
+              </div>
+              <a href="./produtos/rx/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(4)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto" id="vid kumara">
+              <img src="produtos/kumara/1.webp" alt="foto" />
+            </div>
+            <div class="detalhes" id="vid">
+              <h1>Teclado</h1>
+              <div class="preco">
+                <h2>R$ 235,18</h2>
+              </div>
+              <a href="./produtos/kumara/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(5)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto" id="vid">
+              <img src="produtos/fonte/1.jpg" alt="foto" />
+            </div>
+            <div class="detalhes" id="vid">
+              <h1>Fonte 650W</h1>
+              <div class="preco">
+                <h2>R$ 689,00</h2>
+              </div>
+              <a href="./produtos/fonte/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(6)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+          <div class="produto">
+            <div class="imagemProduto" id="vid">
+              <img src="produtos/computador/1.jpg" alt="foto" />
+            </div>
+            <div class="detalhes" id="vid">
+              <h1>Computador</h1>
+              <div class="preco">
+                <h2>R$ 5.999,90</h2>
+              </div>
+              <a href="./produtos/computador/index.html">
+                <button>Comprar</button>
+              </a>
+              <div class="botoes">
+                <i onclick="favorite(7)" class="far fa-heart fa-2x coracao"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="contato" class="quem-somos">
+        <h1>Quem somos?</h1>
+        <p>
+          Fundada no ano de 2020, a TecnoShop é uma empresa que trabalha com
+          produtos de informática, atuando principalmente no setor de
+          computadores e periféricos, área bastante competitiva e em constante
+          crescimento, onde qualidade, variedade, garantia e eficiência são
+          critérios importantíssimos para total satisfação, confiança e
+          preferência de nossos consumidores.
+        </p>
+      </section>
+      <footer>
+        <div class="coluna-esquerda">
+          <!-- Deixar a logo um pouco pra cima foi proposital :) -->
+          <img class="logo-footer" src="./img/itens/logo.svg" alt="logo" />
+          <div class="redes-sociais">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram-square fa-2x"></i>
+            </a>
+          </div>
+          <p>&copy; TecnoShop 2020 | Alguns direitos reservados</p>
+        </div>
+        <div class="coluna-direita">
+          <div id="contato" class="contato">
+            <h1>Fale conosco:</h1>
+            <div class="borda"></div>
+            <form action="" class="formulario">
+              <input
+                type="text"
+                class="email"
+                placeholder="Digite seu e-mail"
+              />
+              <input type="button" value="Enviar" class="botaoContato" />
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

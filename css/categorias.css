@@ -1,0 +1,841 @@
+/* CARDS DOS PRODUTOS */
+
+#produtos {
+  margin-top: 120px;
+}
+
+#catg {
+  text-align: center;
+  color: #5f5f79;
+}
+/* CARD 1 */
+
+.container {
+  position: relative;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container2 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+  margin-top: 20px;
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 1 */
+
+.container .card1 {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+   margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.7s ease-in-out;
+}
+
+.container .card1:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container .card1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card1:after {
+  content: "Mouse";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.container .card1 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.container .card1 .imgBx:hover {
+  top: 0%;
+  transform: translateY(30%);
+  rotate: -05deg;
+}
+
+.container .card1 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%) rotate(-25deg);
+  width: 100%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container .card1 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card1:hover .contentBx {
+  height: 210px;
+}
+
+.container .card1 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+}
+
+.container .card1 .contentBx h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #38ef7d, #11998e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .card1 .contentBx button {
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .card1 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container .card1 .contentBx button:hover {
+  transform: scale(1.1);
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 2 */
+
+.container .card2 {
+   margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: 0.7s ease-in-out;
+}
+
+.container .card2:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container .card2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card2:after {
+  content: "Processador";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.container .card2 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.container .card2 .imgBx:hover {
+  top: 0%;
+  transform: translateY(120%);
+  rotate: -05deg;
+}
+
+.container .card2 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%) rotate(-05deg);
+  width: 60%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container .card2 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card2:hover .contentBx {
+  height: 210px;
+}
+
+.container .card2 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+}
+
+.container .card2 .contentBx h1 {
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #1d2671, #c33764);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .card2 .contentBx button {
+  background: linear-gradient(to right, #1d2671, #c33764);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .card2 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container .card2 .contentBx button:hover {
+  transform: scale(1.1);
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 3 */
+
+.container .card3 {
+   margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+   
+  transition: 0.7s ease-in-out;
+}
+
+.container .card3:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container .card3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card3:after {
+  content: "Monitor";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.container .card3 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.container .card3 .imgBx:hover {
+  top: 0%;
+  transform: translateY(120%);
+  rotate: -05deg;
+}
+
+.container .card3 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%) rotate(05deg);
+  width: 60%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container .card3 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card3:hover .contentBx {
+  height: 210px;
+}
+
+.container .card3 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+}
+
+.container .card3 .contentBx h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #434343, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .card3 .contentBx button {
+  background: linear-gradient(to right, #434343, #000000);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container .card3 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container .card3 .contentBx button:hover {
+  transform: scale(1.1);
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 4 */
+
+.container2 .card4 {
+   margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: 0.7s ease-in-out;
+}
+
+.container2 .card4:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container2 .card4:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container2 .card4:after {
+  content: "Memoria RAM";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.container2 .card4 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.container2 .card4 .imgBx:hover {
+  top: 0%;
+  transform: translateY(120%);
+  rotate: -05deg;
+}
+
+.container2 .card4 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -75%) rotate(20deg);
+  width: 100%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container2 .card4 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container2 .card4:hover .contentBx {
+  height: 210px;
+}
+
+.container2 .card4 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+}
+
+.container2 .card4 .contentBx h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #0072ff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container2 .card4 .contentBx button {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container2 .card4 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container2 .card4 .contentBx button:hover {
+  transform: scale(1.1);
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 5 */
+
+.container2 .card5 {
+   margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+   
+  transition: 0.7s ease-in-out;
+}
+
+.container2 .card5:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container2 .card5:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container2 .card5:after {
+  content: "Teclados";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.container2 .card5 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.container2 .card5 .imgBx:hover {
+  top: 0%;
+  transform: translateY(120%);
+  rotate: -05deg;
+}
+
+.container2 .card5 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -75%) rotate(-30deg);
+  width: 80%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container2 .card5 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container2 .card5:hover .contentBx {
+  height: 210px;
+}
+
+.container2 .card5 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+}
+
+.container2 .card5 .contentBx h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #f09819, #ff512f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container2 .card5 .contentBx button {
+  background: linear-gradient(to right, #f09819, #ff512f);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container2 .card5 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container2 .card5 .contentBx button:hover {
+  transform: scale(1.1);
+}
+
+/* ===============================================================================================================================================================================================================================================================================================================================================================================================================*/
+/* CARD 6 */
+
+.container2 .card6 {
+   margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 320px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: 0.7s ease-in-out;
+}
+
+.container2 .card6:hover {
+  border: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.container2 .card6:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f4c4f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc67fa,
+    #f4c4f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc67fa,
+    #f4c4f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  clip-path: circle(300px at 80% -20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container2 .card6:after {
+  content: "Computadores";
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 7rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.151);
+}
+
+.container2 .card6 .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.container2 .card6 .imgBx:hover {
+  top: 0%;
+  transform: translateY(120%);
+  rotate: -05deg;
+}
+
+.container2 .card6 .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -75%) rotate(0deg);
+  width: 60%;
+  filter: drop-shadow(0px 0px 15px #000);
+}
+
+.container2 .card6 .contentBx {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container2 .card6:hover .contentBx {
+  height: 210px;
+}
+
+.container2 .card6 .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 0px 200px 0px;
+  text-align: center;
+}
+
+.container2 .card6 .contentBx h1 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(to left, #fc67fa, #f4c4f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container2 .card6 .contentBx button {
+  background: linear-gradient(to right, #fc67fa, #f4c4f3);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container2 .card6 .contentBx button a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.container2 .card6 .contentBx button:hover {
+  transform: scale(1.1);
+}

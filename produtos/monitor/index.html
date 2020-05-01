@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acer 27' | TecnoShop</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1f447abecf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../animacao.css">
+    <link rel="icon" type="image/jpg" href="../../img/itens/logo.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <img src="../../img/itens/logo.svg" alt="logo" />
+        <h4 class="logo">TecnoShop</h4>
+      </div>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="link" href="../../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#produtos">Produtos</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#benef">Beneficios</a>
+          </li>
+          <li>
+            <a class="link" href="../../index.html#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="produto">
+      <div class="imagens">
+        <div class="imagem-principal">
+          <img id="container-imagem" src="1.jpg" alt="foto1" />
+        </div>
+        <div class="slider">
+          <img onclick="selecionar_imagem(this)" src="1.jpg" />
+          <img onclick="selecionar_imagem(this)" src="2.jpg" />
+          <img onclick="selecionar_imagem(this)" src="3.jpg" />
+          <img onclick="selecionar_imagem(this)" src="4.jpg" />
+          <img onclick="selecionar_imagem(this)" src="5.jpg" />
+        </div>
+      </div>
+      <div>
+        <div class="detalhes">
+          <h1>
+            Monitor Gamer Acer LED 27´ Widescreen
+            <p>
+              Full HD, HDMI/VGA FreeSync, Som Integrado, 1ms
+            </p>
+          </h1>
+          <div class="codigo">
+            <h3>Código do produto: <small id="cinza">KG271 BMIIX</small></h3>
+          </div>
+          <div class="nota">
+            <span onclick="checar1()" id="e1" class="fa fa-star fa-lg"></span>
+            <span onclick="checar2()" id="e2" class="fa fa-star fa-lg"></span>
+            <span onclick="checar3()" id="e3" class="fa fa-star fa-lg"></span>
+            <span onclick="checar4()" id="e4" class="fa fa-star fa-lg"></span>
+            <span onclick="checar5()" id="e5" class="fa fa-star fa-lg"></span>
+          </div>
+          <div class="preco">
+            <h1>
+              R$ 1.069,90
+            </h1>
+          </div>
+          <div class="mais-detalhes">
+            <h3>
+              Disponibilidade:
+              <i
+                class="far fa-times-circle fa-lg"
+                style="color: rgb(121, 108, 195);"
+              ></i>
+            </h3>
+            <h3>
+              Distribuido por:
+              <a href="https://www.acer.com/" target="blank">Acer</a>
+            </h3>
+            <h3>
+              Parcelas:
+              <select name="cartão" id="parcelas">
+                <option value="1x">Produto não disponivel!</option>
+              </select>
+            </h3>
+            <h3>Quantidade: <input type="number" placeholder="0" /></h3>
+            <button disabled>Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="detalhes">
+      <div class="desc">
+        <h2>Especificações técnicas:</h2>
+        <br />
+
+        <p><b>Características:</b><br /></p>
+
+        <p>
+          - Marca: Acer <br />
+          - Modelo: KG271 BMIIX
+        </p>
+
+        <p>
+          <br />
+          <b>Especificações:</b>
+        </p>
+        <div class="specs">
+          <br />
+          <b>Tela:</b>
+          <p>
+            - Tamanho: 27" <br />
+            - Resolução: Full HD <br />
+            - Tipo de exibição: Tela plana <br />
+            - Tecnologia de Painéis: Filme nemático torcido (TN Film) <br />
+            - Tempo de resposta: 1 ms GTG <br />
+            - Proporção da tela: 16: 9 <br />
+            - Tecnologia de retroiluminação: LED
+          </p>
+          <br />
+          <b>Vídeo:</b>
+          <p>
+            - Resolução máxima: 1920 x 1080 <br />
+            - Taxa de atualização padrão: 75 Hz <br />
+            - Cor suportada: 16,7 milhões de cores <br />
+            - Taxa de contraste: 100.000.000: 1 <br />
+            - Brilho: 300 Nit
+          </p>
+          <br />
+          <b>Áudio:</b>
+          <p>
+            - Número de Speakers: 2 <br />
+            - Caixas de som embutida <br />
+            - Potência de saída do alto-falante: 4 W
+          </p>
+          <br />
+          <b>Portas de Conexão:</b>
+          <p>
+            - 2x HDMI <br />
+            - 1x VGA
+          </p>
+          <br />
+          <b>Energia:</b>
+          <p>
+            - Tensão de entrada: 120 - 230 V AC <br />
+            - Consumo de energia em espera: 450 mW <br />
+            - Consumo de energia fora de modo: 350 mW <br />
+            - Consumo de energia operacional (Energy Star): 18,50 W
+          </p>
+          <br />
+          <b>Físico:</b>
+          <p>
+            - VESA Mount: 100 x 100 <br />
+            - Cor: Preto
+          </p>
+          <br />
+          <b>Conteúdo da Embalagem:</b>
+          <p>
+            - 1x Monitor Acer KG271 <br />
+            - 1x Cabo de alimentação <br />
+            - 1x Cabo VGA
+          </p>
+          <br />
+          <b>Garantia:</b>
+          <p>
+            - 1 ano de garantia <br />
+            <small>
+              (9 meses de garantia contratual junto ao fabricante + 3 meses
+              referentes à garantia legal, nos termos do artigo 26, II, do
+              Código de Defesa do Consumidor)
+            </small>
+          </p>
+          <br />
+          <b>Peso:</b>
+          <p>
+            - 7100 gramas (bruto com embalagem)
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="coluna-esquerda">
+        <!-- Deixar a logo um pouco pra cima foi proposital :) -->
+        <img class="logo-footer" src="../../img/itens/logo.svg" alt="logo" />
+        <div class="redes-sociais">
+          <a href="https://facebook.com" target="blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a href="https://twitter.com" target="blank">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </a>
+          <a href="https://instagram.com" target="blank">
+            <i class="fab fa-instagram-square fa-2x"></i>
+          </a>
+        </div>
+        <p>&copy; TecnoShop 2020 | Alguns direitos reservados</p>
+      </div>
+      <div class="coluna-direita">
+        <div id="contato" class="contato">
+          <h1>Fale conosco:</h1>
+          <div class="borda"></div>
+          <form action="" class="formulario">
+            <input type="text" class="email" placeholder="Digite seu e-mail" />
+            <input type="button" value="Enviar" class="botaoContato" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
